@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Nav from "./navbar"
 import io from "socket.io-client"
-const socket = io.connect("http://localhost:2000/message")
+const socket = io.connect("https://new-msg-4425.vercel.app/message")
 function App(){
   const[oldmsg,newmsg]=useState([""])
   console.log(oldmsg)
