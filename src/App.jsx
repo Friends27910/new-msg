@@ -20,7 +20,7 @@ setdefaultmsgval("")
   return(
    
     <>
-    <Nav />
+    
 <div className="mt-10 flex justify-center h-1/4">
  <h1 className="font-bold text-red-600 text-3xl ">Welcome</h1>
    </div>
